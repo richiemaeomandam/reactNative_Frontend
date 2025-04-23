@@ -101,19 +101,3 @@ Confirm that tasks are saved and retrieved through the backend at:
 
 ---
 
-## 🧼 OPTIONAL: CLEAN UP FOR SUBMISSION
-- ✅ Double-check your UI
-- ✅ Confirm all features work
-- ✅ Push any final updates to your GitHub repos
-
----
-
-## 💬 LEARN MORE
-
-To learn more about developing your project with Expo or React Native, refer to the following resources:
-
-- [Expo Documentation](https://docs.expo.dev)
-- [React Native Documentation](https://reactnative.dev/docs/getting-started)
-- [Join Expo Discord Community](https://expo.dev/discord)
-
----
