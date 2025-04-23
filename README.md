@@ -4,6 +4,7 @@
 **Frontend Repo:** [reactNative_Frontend](https://github.com/richiemaeomandam/reactNative_Frontend)  
 **Backend Repo:** [reactNative_backend](https://github.com/richiemaeomandam/reactNative_backend)  
 **Backend URL (Hosted on Render):** [https://reactnative-backend.onrender.com](https://reactnative-backend.onrender.com)
+**Install the app:** [https://expo.dev/accounts/richiemae/projects/todo-app/builds/cc422aa5-8461-420a-9115-9e4c66314b28]([https://reactnative-backend.onrender.com](https://expo.dev/accounts/richiemae/projects/todo-app/builds/cc422aa5-8461-420a-9115-9e4c66314b28))
 
 ---
 
