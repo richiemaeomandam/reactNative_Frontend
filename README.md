@@ -1,50 +1,82 @@
-# Welcome to your Expo app 👋
+#📱 React Native To-Do List App – Setup & Run Guide
+Student: Richie Mae Omandam
+Frontend Repo: reactNative_Frontend
+Backend Repo: reactNative_backend
+Backend URL (Hosted on Render): https://reactnative-backend.onrender.com
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+#✅ Prerequisites
+Ensure the following tools are installed:
 
-## Get started
 
-1. Install dependencies
+Tool	Purpose	Install Guide
+Node.js	JavaScript runtime	nodejs.org
+React Native CLI or Expo CLI	Run React Native apps	React Native
+Git	Clone GitHub repo	git-scm.com
+Android Studio or Expo Go app	Test the app on a device/emulator	expo.dev or Android Studio
+#🧩 Step 1: Clone the Frontend Repository
+Open your terminal and run:
 
-   ```bash
-   npm install
-   ```
+git clone https://github.com/richiemaeomandam/reactNative_Frontend.git
+cd reactNative_Frontend
+📦 Step 2: Install Dependencies
+Install the necessary packages:
 
-2. Start the app
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+🔗 Step 3: Connect to the Backend
+Inside your React Native project, locate the file where the API URL is defined (usually App.tsx or api.ts).
 
-   ```bash
-    npx expo start
-   ```
+Ensure the URL is set to:
 
-In the output, you'll find options to open the app in a
+ts
+Copy
+Edit
+const API_URL = 'https://reactnative-backend.onrender.com';
+✅ This connects your frontend to the deployed backend.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🟣 Step 4: Run the React Native App
+✅ Option 1: Using Expo
+bash
+Copy
+Edit
+npx expo start
+A QR code will appear.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Scan it using the Expo Go app on your phone to launch the app.
 
-## Get a fresh project
+✅ Option 2: Using React Native CLI
+Make sure Android Studio is running (for emulator use).
 
-When you're ready, run:
+bash
+Copy
+Edit
+npx react-native run-android   # For Android
+npx react-native run-ios       # For iOS (on Mac only)
+✨ App Features
+Add, edit, delete tasks
 
-```bash
-npm run reset-project
-```
+Mark tasks as complete/incomplete
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Filter tasks by status (All, Completed, Pending)
 
-## Learn more
+Dark mode and light mode toggle 🌑🌞
 
-To learn more about developing your project with Expo, look at the following resources:
+Stylish Black & Pink UI theme 🎀
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🧪 Step 5: Verify Backend Communication
+Confirm that tasks are saved and retrieved through the backend at:
 
-## Join the community
+🔗 https://reactnative-backend.onrender.com
 
-Join our community of developers creating universal apps.
+Note: On first load, Render may take a few seconds to “wake up.”
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🧼 Optional: Clean Up for Submission
+✅ Double-check your UI
+
+✅ Confirm all features work
+
+✅ Push any final updates to your GitHub repos
