@@ -25,3 +25,16 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/richiemaeomandam/reactNative_Frontend.git
 cd reactNative_Frontend
+
+📦 STEP 2: INSTALL DEPENDENCIES
+Install the necessary packages:
+npm install
+# or
+yarn install
+
+🔗 STEP 3: CONNECT TO THE BACKEND
+Inside your React Native project, locate the file where the API URL is defined (usually App.tsx or api.ts).
+
+Ensure the URL is set to:
+const API_URL = 'https://reactnative-backend.onrender.com';
+
