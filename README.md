@@ -95,7 +95,7 @@ npx react-native run-ios
 ## 🧪 STEP 5: VERIFY BACKEND COMMUNICATION
 Confirm that tasks are saved and retrieved through the backend at:
 
-🔗 [https://reactnative-backend.onrender.com](https://reactnative-backend.onrender.com)
+🔗 [https://reactnative-backend.onrender.com](https://reactnative-backend.onrender.com/tasks)
 
 **Note:** On first load, Render may take a few seconds to "wake up."
 
