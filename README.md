@@ -1,10 +1,10 @@
-#📱 React Native To-Do List App – Setup & Run Guide
+📱 React Native To-Do List App – Setup & Run Guide
 Student: Richie Mae Omandam
 Frontend Repo: reactNative_Frontend
 Backend Repo: reactNative_backend
 Backend URL (Hosted on Render): https://reactnative-backend.onrender.com
 
-#✅ Prerequisites
+✅ Prerequisites
 Ensure the following tools are installed:
 
 
@@ -13,9 +13,12 @@ Node.js	JavaScript runtime	nodejs.org
 React Native CLI or Expo CLI	Run React Native apps	React Native
 Git	Clone GitHub repo	git-scm.com
 Android Studio or Expo Go app	Test the app on a device/emulator	expo.dev or Android Studio
-#🧩 Step 1: Clone the Frontend Repository
+🧩 Step 1: Clone the Frontend Repository
 Open your terminal and run:
 
+bash
+Copy
+Edit
 git clone https://github.com/richiemaeomandam/reactNative_Frontend.git
 cd reactNative_Frontend
 📦 Step 2: Install Dependencies
