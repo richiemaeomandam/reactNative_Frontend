@@ -91,7 +91,6 @@ npx react-native run-ios
 - Mark tasks as complete/incomplete
 - Filter tasks by status (All, Completed, Pending)
 - Dark mode and light mode toggle 🌑🌞
-- Stylish Black & Pink UI theme 🎀
 
 ---
 
